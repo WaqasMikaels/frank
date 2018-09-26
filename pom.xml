@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>mikaels</groupId>
-	<artifactId>clappy</artifactId>
+	<artifactId>frank</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>clappy</name>
+	<name>frank</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
@@ -104,7 +104,7 @@
 							<from>waqas.ahmed@mikaels.com</from>
 
 							<!-- Email subject -->
-							<subject>Clappy Automation Script Report</subject>
+							<subject>Frank Automation Script Report</subject>
 
 							<!-- Fail the build if the mail doesnt reach -->
 							<failonerror>true</failonerror>

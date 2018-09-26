@@ -20,11 +20,11 @@ import org.testng.annotations.Test;
 import mikaels.frank.baseclass.BaseUi;
 
 
-public class FrankTestClass_UI extends BaseUi {
+public class AdwordsCampaignCreation_UI extends BaseUi {
 	WebDriver driver;
 	
 
-	public FrankTestClass_UI(WebDriver driver) {
+	public AdwordsCampaignCreation_UI(WebDriver driver) {
 		super(driver);
 		this.driver = driver;
 	}
@@ -152,6 +152,9 @@ public class FrankTestClass_UI extends BaseUi {
 	@FindBy(xpath = "//*[@id=\"app\"]/div[4]/div[2]/div/div[3]/div/p/button")
 	private WebElement uploadFbAd;
 	
+	@FindBy(xpath = "//*[@id=\"app\"]/div[4]/div[2]/div/div[3]/div/p/button")
+	private WebElement uploadAdwordsAd;
+	
 	@FindBy(css = "[id = 'post-input']")
 	private WebElement txtPostText;
 	
@@ -167,11 +170,14 @@ public class FrankTestClass_UI extends BaseUi {
 	@FindBy(css = "[id = 'website']")
 	private WebElement txtWebLink;
 	
-	@FindBy(xpath = "//*[@id=\"upload-fb\"]/div/span/div/div")
+	@FindBy(xpath = "//*[@id=\"upload-ad\"]/div/span/div/div")
 	private WebElement btnUploadVisuals;
 	
+	@FindBy(xpath = "//*[@id=\"app\"]/div[4]/div[2]/div/div[3]/div/div[4]/div[4]/h4")
+	private WebElement headingPreview;
+	
 	@FindBy(css = "[class = 'ui purple button']")
-	private WebElement btnSaveFbAd;
+	private WebElement btnSaveAdwordsAd;
 	
 	@FindBy(css = "[id = 'save-creatives']")
 	private WebElement btnContinue;
@@ -190,6 +196,33 @@ public class FrankTestClass_UI extends BaseUi {
 	
 	@FindBy (xpath = "//html/body/div[3]/div/div[1]/div[2]/div")
 	private WebElement msgCampaignSuccess;
+	
+	@FindBy (xpath = "//*[@id=\"app\"]/div[2]/div[2]/form/div[4]/a")
+	private WebElement btnUpdateAccountsList;
+	
+	@FindBy (xpath = "//*[@id=\"identifierId\"]")
+	private WebElement txtEmailAddressWin2;
+	
+	@FindBy (xpath = "//*[@id=\"app\"]/div[2]/div[2]/form/div[4]/h2")
+	private WebElement headingGoogle;
+	
+	@FindBy (xpath = "//*[@id=\"identifierNext\"]/content/span")
+	private WebElement btnNextToPasswordWin2;
+	
+	@FindBy (xpath = "//*[@id=\"password\"]/div[1]/div/div[1]/input")
+	private WebElement txtPasswordWin2;
+	
+	@FindBy (xpath = "//*[@id=\"passwordNext\"]/content/span")
+	private WebElement btnNextToAllowWin2;
+	
+	@FindBy (xpath = "//*[@id=\"submit_approve_access\"]/content/span")
+	private WebElement btnAllowWin2;
+	
+	@FindBy (xpath = "//*[@id=\"app\"]/div[2]/div[2]/form/div[5]/div[1]/i")
+	private WebElement iconInfo2;
+	
+	@FindBy (xpath = "//*[@id=\"app\"]/div[2]/div[2]/form/div[6]/h2")
+	private WebElement heading5;
 	
 	public void CheckFrankTitle() {
 		Assert.assertEquals("Frank.ai", driver.getTitle()); 
@@ -227,21 +260,30 @@ public class FrankTestClass_UI extends BaseUi {
 	}
 	
 	public void SelectChannels() {
-		//chkbxChannelFacebook.click();
-		//hardwait(1);
-		chkbxChannelAdwords.click();
+		chkbxChannelFacebook.click();
 		hardwait(1);
+		//chkbxChannelAdwords.click();
+		//hardwait(1);
 		chkbxChannelProgrammatic.click();
 		hardwait(1);
+		scrollDown(headingGoogle);
 	}
 	
-	public void SelectFacebookPage() {
-		scrollDown(chkbxChannelFacebook);
+	public void LinkGoogleAnalyticsAccount() {
+		clickUsingJS(btnUpdateAccountsList);
+		hardwait(5);
+		changeWindow(1);
+		hardwait(1);
+		txtEmailAddressWin2.sendKeys("waqas.ahmed@mikaels.com");
+		hardwait(1);
+		btnNextToPasswordWin2.click();
 		hardwait(3);
-		drdFacebookPages.click();
-		hardwait(1);
-		drdvalFirstFacebookPage.click();
-		hardwait(1);
+		txtPasswordWin2.sendKeys("Tiqaep5583");
+		btnNextToAllowWin2.click();
+		hardwait(5);
+		btnAllowWin2.click();
+		hardwait(2);
+		changeWindow(0);
 	}
 	
 	public void SelectLocation() {
@@ -251,6 +293,7 @@ public class FrankTestClass_UI extends BaseUi {
 		hardwait(1);
 		drdvalFirstLocation.click();
 		hardwait(1);
+		iconInfo2.click();
 	}
 	
 	public void SelectDevices() {
@@ -261,6 +304,7 @@ public class FrankTestClass_UI extends BaseUi {
 	}
 	
 	public void ClickSaveAndContinue() {
+		scrollDown(heading5);
 		btnSaveAndContinue.click();
 		hardwait(2);
 	}
@@ -319,24 +363,9 @@ public class FrankTestClass_UI extends BaseUi {
 		hardwait(5);
 	}
 	
-	public void ClickUploadFbAd() {
-		uploadFbAd.click();
+	public void ClickUploadAdwordsAd() {
+		uploadAdwordsAd.click();
 		hardwait(1);
-	}
-	
-	public void EnterPostText() {
-		txtPostText.sendKeys("This is from Post Text");
-		hardwait(3);
-	}
-	
-	public void EnterHeadline() {
-		txtHeadline.sendKeys("THIS IS FROM HEADLINE");
-		hardwait(3);
-	}
-	
-	public void EnterIntroText() {
-		txtIntro.sendKeys("This is from Intro Text");
-		hardwait(3);
 	}
 	
 	public void EnterWebsiteLink() {
@@ -347,9 +376,10 @@ public class FrankTestClass_UI extends BaseUi {
 	public void UploadBanners() throws IOException {
 		btnUploadVisuals.click();
 		hardwait(3);
-		Runtime.getRuntime().exec("C:\\workspace\\frank\\Bannerupload.exe");
+		Runtime.getRuntime().exec("C:\\workspace\\frank\\BanneruploadAdwords.exe");
 		hardwait(5);
-		btnSaveFbAd.click();
+		scrollDown(headingPreview);
+		btnSaveAdwordsAd.click();
 	}
 	
 	public void ClickContinueToBilling() {
@@ -360,7 +390,7 @@ public class FrankTestClass_UI extends BaseUi {
 	public void SelectEndDate() {
 		txtEndDate.click();
 		hardwait(1);
-		txtEndDate.sendKeys("10/1/2018");
+		txtEndDate.sendKeys("10/4/2018");
 		hardwait(1);
 		iconDateInfo.click();
 		scrollDown(headingPaymentDetails);

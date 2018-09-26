@@ -20,12 +20,12 @@
       <![CDATA[=================================================================]]>
     </line>
   </reporter-output>
-  <suite started-at="2018-09-24T12:47:41Z" name="Default suite" finished-at="2018-09-24T12:49:48Z" duration-ms="126978">
+  <suite started-at="2018-09-26T10:29:58Z" name="Default suite" finished-at="2018-09-26T10:32:59Z" duration-ms="180824">
     <groups>
     </groups>
-    <test started-at="2018-09-24T12:47:41Z" name="Default test" finished-at="2018-09-24T12:49:48Z" duration-ms="126978">
-      <class name="mikaels.frank.FrankTestClass">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:mikaels.frank.FrankTestClass@36d585c]" started-at="2018-09-24T12:47:42Z" name="beforeClass" finished-at="2018-09-24T12:47:55Z" duration-ms="13118" status="PASS">
+    <test started-at="2018-09-26T10:29:58Z" name="Default test" finished-at="2018-09-26T10:32:59Z" duration-ms="180824">
+      <class name="mikaels.frank.AdwordsCampaignCreation">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:mikaels.frank.AdwordsCampaignCreation@36d585c]" started-at="2018-09-26T10:29:58Z" name="beforeClass" finished-at="2018-09-26T10:30:49Z" duration-ms="51245" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[setting value isnull]]>
@@ -47,83 +47,83 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="Test01_Verify_Frank_Title()[pri:0, instance:mikaels.frank.FrankTestClass@36d585c]" started-at="2018-09-24T12:47:55Z" name="Test01_Verify_Frank_Title" finished-at="2018-09-24T12:47:55Z" duration-ms="24" status="PASS">
+        <test-method signature="Test01_Verify_Frank_Title()[pri:0, instance:mikaels.frank.AdwordsCampaignCreation@36d585c]" started-at="2018-09-26T10:30:49Z" name="Test01_Verify_Frank_Title" finished-at="2018-09-26T10:30:49Z" duration-ms="39" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test01_Verify_Frank_Title -->
-        <test-method signature="Test02_Perform_Signin()[pri:0, instance:mikaels.frank.FrankTestClass@36d585c]" started-at="2018-09-24T12:47:55Z" name="Test02_Perform_Signin" finished-at="2018-09-24T12:48:06Z" duration-ms="11401" status="PASS">
+        <test-method signature="Test02_Perform_Signin()[pri:0, instance:mikaels.frank.AdwordsCampaignCreation@36d585c]" started-at="2018-09-26T10:30:49Z" name="Test02_Perform_Signin" finished-at="2018-09-26T10:31:01Z" duration-ms="11653" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test02_Perform_Signin -->
-        <test-method signature="Test03_Verify_Signin()[pri:0, instance:mikaels.frank.FrankTestClass@36d585c]" started-at="2018-09-24T12:48:06Z" name="Test03_Verify_Signin" finished-at="2018-09-24T12:48:06Z" duration-ms="120" status="PASS">
+        <test-method signature="Test03_Verify_Signin()[pri:0, instance:mikaels.frank.AdwordsCampaignCreation@36d585c]" started-at="2018-09-26T10:31:01Z" name="Test03_Verify_Signin" finished-at="2018-09-26T10:31:01Z" duration-ms="123" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test03_Verify_Signin -->
-        <test-method signature="Test04_Click_Create_Campaign()[pri:0, instance:mikaels.frank.FrankTestClass@36d585c]" started-at="2018-09-24T12:48:06Z" name="Test04_Click_Create_Campaign" finished-at="2018-09-24T12:48:11Z" duration-ms="5100" status="PASS">
+        <test-method signature="Test04_Click_Create_Campaign()[pri:0, instance:mikaels.frank.AdwordsCampaignCreation@36d585c]" started-at="2018-09-26T10:31:01Z" name="Test04_Click_Create_Campaign" finished-at="2018-09-26T10:31:06Z" duration-ms="5245" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test04_Click_Create_Campaign -->
-        <test-method signature="Test05_Campaign_Setup_Step()[pri:0, instance:mikaels.frank.FrankTestClass@36d585c]" started-at="2018-09-24T12:48:11Z" name="Test05_Campaign_Setup_Step" finished-at="2018-09-24T12:48:20Z" duration-ms="9007" status="PASS">
+        <test-method signature="Test05_Campaign_Setup_Step()[pri:0, instance:mikaels.frank.AdwordsCampaignCreation@36d585c]" started-at="2018-09-26T10:31:06Z" name="Test05_Campaign_Setup_Step" finished-at="2018-09-26T10:31:33Z" duration-ms="27283" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test05_Campaign_Setup_Step -->
-        <test-method signature="Test06_Select_Location()[pri:0, instance:mikaels.frank.FrankTestClass@36d585c]" started-at="2018-09-24T12:48:20Z" name="Test06_Select_Location" finished-at="2018-09-24T12:48:26Z" duration-ms="5479" status="PASS">
+        <test-method signature="Test06_Select_Location()[pri:0, instance:mikaels.frank.AdwordsCampaignCreation@36d585c]" started-at="2018-09-26T10:31:33Z" name="Test06_Select_Location" finished-at="2018-09-26T10:31:39Z" duration-ms="5953" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test06_Select_Location -->
-        <test-method signature="Test07_Click_Save_And_Continue()[pri:0, instance:mikaels.frank.FrankTestClass@36d585c]" started-at="2018-09-24T12:48:26Z" name="Test07_Click_Save_And_Continue" finished-at="2018-09-24T12:48:28Z" duration-ms="2171" status="PASS">
+        <test-method signature="Test07_Click_Save_And_Continue()[pri:0, instance:mikaels.frank.AdwordsCampaignCreation@36d585c]" started-at="2018-09-26T10:31:39Z" name="Test07_Click_Save_And_Continue" finished-at="2018-09-26T10:31:42Z" duration-ms="2216" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test07_Click_Save_And_Continue -->
-        <test-method signature="Test08_Select_Age_Group()[pri:0, instance:mikaels.frank.FrankTestClass@36d585c]" started-at="2018-09-24T12:48:28Z" name="Test08_Select_Age_Group" finished-at="2018-09-24T12:48:30Z" duration-ms="1574" status="PASS">
+        <test-method signature="Test08_Select_Age_Group()[pri:0, instance:mikaels.frank.AdwordsCampaignCreation@36d585c]" started-at="2018-09-26T10:31:42Z" name="Test08_Select_Age_Group" finished-at="2018-09-26T10:31:49Z" duration-ms="7443" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test08_Select_Age_Group -->
-        <test-method signature="Test09_Select_Target_Language_Speakers()[pri:0, instance:mikaels.frank.FrankTestClass@36d585c]" started-at="2018-09-24T12:48:30Z" name="Test09_Select_Target_Language_Speakers" finished-at="2018-09-24T12:48:31Z" duration-ms="1090" status="PASS">
+        <test-method signature="Test09_Select_Target_Language_Speakers()[pri:0, instance:mikaels.frank.AdwordsCampaignCreation@36d585c]" started-at="2018-09-26T10:31:49Z" name="Test09_Select_Target_Language_Speakers" finished-at="2018-09-26T10:31:50Z" duration-ms="1117" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test09_Select_Target_Language_Speakers -->
-        <test-method signature="Test10_Select_Specific_Interest()[pri:0, instance:mikaels.frank.FrankTestClass@36d585c]" started-at="2018-09-24T12:48:31Z" name="Test10_Select_Specific_Interest" finished-at="2018-09-24T12:48:43Z" duration-ms="12077" status="PASS">
+        <test-method signature="Test10_Select_Specific_Interest()[pri:0, instance:mikaels.frank.AdwordsCampaignCreation@36d585c]" started-at="2018-09-26T10:31:50Z" name="Test10_Select_Specific_Interest" finished-at="2018-09-26T10:32:02Z" duration-ms="11892" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test10_Select_Specific_Interest -->
-        <test-method signature="Test11_Upload_1000_Contacts_txt_or_csv()[pri:0, instance:mikaels.frank.FrankTestClass@36d585c]" started-at="2018-09-24T12:48:43Z" name="Test11_Upload_1000_Contacts_txt_or_csv" finished-at="2018-09-24T12:48:54Z" duration-ms="11438" status="PASS">
+        <test-method signature="Test11_Upload_1000_Contacts_txt_or_csv()[pri:0, instance:mikaels.frank.AdwordsCampaignCreation@36d585c]" started-at="2018-09-26T10:32:02Z" name="Test11_Upload_1000_Contacts_txt_or_csv" finished-at="2018-09-26T10:32:13Z" duration-ms="11465" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test11_Upload_1000_Contacts_txt_or_csv -->
-        <test-method signature="Test12_Click_Save_And_Continue2()[pri:0, instance:mikaels.frank.FrankTestClass@36d585c]" started-at="2018-09-24T12:48:54Z" name="Test12_Click_Save_And_Continue2" finished-at="2018-09-24T12:48:59Z" duration-ms="5174" status="PASS">
+        <test-method signature="Test12_Click_Save_And_Continue2()[pri:0, instance:mikaels.frank.AdwordsCampaignCreation@36d585c]" started-at="2018-09-26T10:32:13Z" name="Test12_Click_Save_And_Continue2" finished-at="2018-09-26T10:32:19Z" duration-ms="5164" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test12_Click_Save_And_Continue2 -->
-        <test-method signature="Test13_Click_Create_Fb_Ad()[pri:0, instance:mikaels.frank.FrankTestClass@36d585c]" started-at="2018-09-24T12:48:59Z" name="Test13_Click_Create_Fb_Ad" finished-at="2018-09-24T12:49:00Z" duration-ms="1152" status="PASS">
+        <test-method signature="Test13_Click_Create_Adwords_Ad()[pri:0, instance:mikaels.frank.AdwordsCampaignCreation@36d585c]" started-at="2018-09-26T10:32:19Z" name="Test13_Click_Create_Adwords_Ad" finished-at="2018-09-26T10:32:20Z" duration-ms="1111" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test13_Click_Create_Fb_Ad -->
-        <test-method signature="Test14_Fill_Fb_Ad_Form()[pri:0, instance:mikaels.frank.FrankTestClass@36d585c]" started-at="2018-09-24T12:49:00Z" name="Test14_Fill_Fb_Ad_Form" finished-at="2018-09-24T12:49:14Z" duration-ms="13880" status="PASS">
+        </test-method> <!-- Test13_Click_Create_Adwords_Ad -->
+        <test-method signature="Test14_Fill_Fb_Ad_Form()[pri:0, instance:mikaels.frank.AdwordsCampaignCreation@36d585c]" started-at="2018-09-26T10:32:20Z" name="Test14_Fill_Fb_Ad_Form" finished-at="2018-09-26T10:32:23Z" duration-ms="3455" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test14_Fill_Fb_Ad_Form -->
-        <test-method signature="Test15_Upload_Banners()[pri:0, instance:mikaels.frank.FrankTestClass@36d585c]" started-at="2018-09-24T12:49:14Z" name="Test15_Upload_Banners" finished-at="2018-09-24T12:49:23Z" duration-ms="8620" status="PASS">
+        <test-method signature="Test15_Upload_Banners()[pri:0, instance:mikaels.frank.AdwordsCampaignCreation@36d585c]" started-at="2018-09-26T10:32:23Z" name="Test15_Upload_Banners" finished-at="2018-09-26T10:32:32Z" duration-ms="8642" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test15_Upload_Banners -->
-        <test-method signature="Test16_Click_Continue_To_Billing()[pri:0, instance:mikaels.frank.FrankTestClass@36d585c]" started-at="2018-09-24T12:49:23Z" name="Test16_Click_Continue_To_Billing" finished-at="2018-09-24T12:49:28Z" duration-ms="5182" status="PASS">
+        <test-method signature="Test16_Click_Continue_To_Billing()[pri:0, instance:mikaels.frank.AdwordsCampaignCreation@36d585c]" started-at="2018-09-26T10:32:32Z" name="Test16_Click_Continue_To_Billing" finished-at="2018-09-26T10:32:37Z" duration-ms="5116" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test16_Click_Continue_To_Billing -->
-        <test-method signature="Test17_Select_End_Date()[pri:0, instance:mikaels.frank.FrankTestClass@36d585c]" started-at="2018-09-24T12:49:28Z" name="Test17_Select_End_Date" finished-at="2018-09-24T12:49:45Z" duration-ms="16768" status="PASS">
+        <test-method signature="Test17_Select_End_Date()[pri:0, instance:mikaels.frank.AdwordsCampaignCreation@36d585c]" started-at="2018-09-26T10:32:37Z" name="Test17_Select_End_Date" finished-at="2018-09-26T10:32:55Z" duration-ms="18353" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test17_Select_End_Date -->
-        <test-method signature="Test18_Create_Campaign_And_Verify()[pri:0, instance:mikaels.frank.FrankTestClass@36d585c]" started-at="2018-09-24T12:49:45Z" name="Test18_Create_Campaign_And_Verify" finished-at="2018-09-24T12:49:46Z" duration-ms="1151" status="PASS">
+        <test-method signature="Test18_Create_Campaign_And_Verify()[pri:0, instance:mikaels.frank.AdwordsCampaignCreation@36d585c]" started-at="2018-09-26T10:32:55Z" name="Test18_Create_Campaign_And_Verify" finished-at="2018-09-26T10:32:56Z" duration-ms="1123" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test18_Create_Campaign_And_Verify -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:mikaels.frank.FrankTestClass@36d585c]" started-at="2018-09-24T12:49:46Z" name="afterClass" finished-at="2018-09-24T12:49:48Z" duration-ms="2378" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:mikaels.frank.AdwordsCampaignCreation@36d585c]" started-at="2018-09-26T10:32:56Z" name="afterClass" finished-at="2018-09-26T10:32:59Z" duration-ms="2087" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- mikaels.frank.FrankTestClass -->
+      </class> <!-- mikaels.frank.AdwordsCampaignCreation -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

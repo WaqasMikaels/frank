@@ -30,6 +30,7 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
+import mikaels.frank.ui.AdwordsCampaignCreation_UI;
 import mikaels.frank.ui.FrankTestClass_UI;
 import mikaels.frank.util.YamlReader;
 
@@ -55,6 +56,7 @@ public class DSLLibDesktop {
 	
 	
 	public FrankTestClass_UI franktestclass;
+	public AdwordsCampaignCreation_UI adwordscampaigncreation;
 	
 	
 	public DSLLibDesktop() {
@@ -202,6 +204,7 @@ public class DSLLibDesktop {
 		
 		
 		franktestclass = new FrankTestClass_UI(driver);
+		adwordscampaigncreation = new AdwordsCampaignCreation_UI(driver);
 	}
 
 	/**
