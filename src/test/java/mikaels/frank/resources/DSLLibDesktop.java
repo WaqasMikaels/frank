@@ -32,6 +32,7 @@ import org.testng.annotations.Test;
 
 import mikaels.frank.ui.AdwordsCampaignCreation_UI;
 import mikaels.frank.ui.FbCampaignCreation_UI;
+import mikaels.frank.ui.ProgrammaticNetworksCampaignCreation_UI;
 import mikaels.frank.util.YamlReader;
 
 public class DSLLibDesktop {
@@ -57,6 +58,7 @@ public class DSLLibDesktop {
 	
 	public FbCampaignCreation_UI franktestclass;
 	public AdwordsCampaignCreation_UI adwordscampaigncreation;
+	public ProgrammaticNetworksCampaignCreation_UI programmaticnetworkscampaigncreation;
 	
 	
 	public DSLLibDesktop() {
@@ -197,15 +199,18 @@ public class DSLLibDesktop {
 		driver.get(YamlReader.getData("ClappyUrl"));
 	}
 	
+	
+	
 	/**
 	 * function to initialize object
 	 */
 	private void _initObjects() {
-		
-		
 		franktestclass = new FbCampaignCreation_UI(driver);
 		adwordscampaigncreation = new AdwordsCampaignCreation_UI(driver);
+		programmaticnetworkscampaigncreation = new ProgrammaticNetworksCampaignCreation_UI(driver);
 	}
+	
+	
 
 	/**
 	 * function to close the browser
