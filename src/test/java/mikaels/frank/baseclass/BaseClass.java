@@ -10,7 +10,7 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.safari.SafariDriver;
 
-import mikaels.frank.ui.FrankTestClass_UI;
+import mikaels.frank.ui.FbCampaignCreation_UI;
 import mikaels.frank.util.YamlReader;
 
 /**
@@ -29,7 +29,7 @@ public class BaseClass {
 	protected static String setting;
 	protected static DesiredCapabilities capabilities;
 	public static boolean baseURL = true;
-	protected static FrankTestClass_UI src;
+	protected static FbCampaignCreation_UI src;
 
 	public BaseClass() {
 		setting = YamlReader.getYamlValue("CurrentServer");
@@ -87,7 +87,7 @@ public class BaseClass {
 	 * function to initialize object
 	 */
 	private static void _initObjects() {
-		src = new FrankTestClass_UI(driver);
+		src = new FbCampaignCreation_UI(driver);
 		
 	}
 

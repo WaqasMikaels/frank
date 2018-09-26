@@ -1,0 +1,10 @@
+mikaels\frank\util\StringMatcher.class
+mikaels\frank\util\YamlReader.class
+mikaels\frank\FbCampaignCreation.class
+mikaels\frank\resources\DSLLibDesktop.class
+mikaels\frank\AdwordsCampaignCreation.class
+mikaels\frank\baseclass\AbstractClass.class
+mikaels\frank\ui\FbCampaignCreation_UI.class
+mikaels\frank\baseclass\BaseUi.class
+mikaels\frank\baseclass\BaseClass.class
+mikaels\frank\ui\AdwordsCampaignCreation_UI.class

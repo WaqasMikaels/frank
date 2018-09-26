@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 import mikaels.frank.baseclass.BaseUi;
 import mikaels.frank.resources.DSLLibDesktop;
 
-public class FrankTestClass {
+public class FbCampaignCreation {
 	DSLLibDesktop dsl;
 	  //public String xPath = "D:/Excels/MyExcel.xls";
 	  //public String xPath = "D:/Excels/MyFirstExcel.xlsx";

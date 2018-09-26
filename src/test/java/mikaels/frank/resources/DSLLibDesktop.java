@@ -31,7 +31,7 @@ import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import mikaels.frank.ui.AdwordsCampaignCreation_UI;
-import mikaels.frank.ui.FrankTestClass_UI;
+import mikaels.frank.ui.FbCampaignCreation_UI;
 import mikaels.frank.util.YamlReader;
 
 public class DSLLibDesktop {
@@ -55,7 +55,7 @@ public class DSLLibDesktop {
 	
 	
 	
-	public FrankTestClass_UI franktestclass;
+	public FbCampaignCreation_UI franktestclass;
 	public AdwordsCampaignCreation_UI adwordscampaigncreation;
 	
 	
@@ -203,7 +203,7 @@ public class DSLLibDesktop {
 	private void _initObjects() {
 		
 		
-		franktestclass = new FrankTestClass_UI(driver);
+		franktestclass = new FbCampaignCreation_UI(driver);
 		adwordscampaigncreation = new AdwordsCampaignCreation_UI(driver);
 	}
 

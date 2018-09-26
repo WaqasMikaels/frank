@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Frank]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Campaigns Creation(failed)" verbose="0">
+    <classes>
+      <class name="mikaels.frank.FbCampaignCreation">
+        <methods>
+          <include name="Test18_Create_Campaign_And_Verify"/>
+          <include name="Test17_Select_End_Date"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- mikaels.frank.FbCampaignCreation -->
+      <class name="mikaels.frank.AdwordsCampaignCreation">
+        <methods>
+          <include name="Test17_Select_End_Date"/>
+          <include name="beforeClass"/>
+          <include name="Test18_Create_Campaign_And_Verify"/>
+          <include name="Test16_Click_Continue_To_Billing"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- mikaels.frank.AdwordsCampaignCreation -->
+    </classes>
+  </test> <!-- Campaigns Creation(failed) -->
+</suite> <!-- Failed suite [Frank] -->

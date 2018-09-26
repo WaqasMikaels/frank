@@ -188,8 +188,8 @@ public class AdwordsCampaignCreation_UI extends BaseUi {
 	@FindBy(xpath = "//*[@id=\"checkout-form\"]/div[2]/div[2]/div[2]/div[1]/div[1]")
 	private WebElement iconDateInfo;
 	
-	@FindBy(xpath = "//*[@id=\"checkout-form\"]/div[2]/div[2]/div[2]/div[4]/h2")
-	private WebElement headingPaymentDetails;
+	@FindBy(xpath = "//*[@id=\"checkout-form\"]/div[2]/div[2]/div[2]/div[5]/h2")
+	private WebElement headingPaymentMethod;
 	
 	@FindBy (xpath = "//*[@id=\"checkout-form\"]/div[2]/div[2]/div[2]/div[6]/button")
 	private WebElement btnSubmitCampaign;
@@ -393,7 +393,7 @@ public class AdwordsCampaignCreation_UI extends BaseUi {
 		txtEndDate.sendKeys("10/4/2018");
 		hardwait(1);
 		iconDateInfo.click();
-		scrollDown(headingPaymentDetails);
+		scrollDown(headingPaymentMethod);
 		btnSubmitCampaign.click();
 		hardwait(10);
 	}
