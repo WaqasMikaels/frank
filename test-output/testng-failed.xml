@@ -3,15 +3,29 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="mikaels.frank.AdwordsCampaignCreation">
+      <class name="mikaels.frank.FbCampaignCreation">
         <methods>
+          <include name="Test06_Select_Location"/>
+          <include name="Test16_Click_Continue_To_Billing"/>
+          <include name="Test13_Click_Create_Fb_Ad"/>
+          <include name="Test05_Campaign_Setup_Step"/>
+          <include name="Test14_Fill_Fb_Ad_Form"/>
           <include name="Test17_Select_End_Date"/>
-          <include name="beforeClass"/>
-          <include name="Test15_Upload_Banners"/>
+          <include name="Test02_Perform_Signin"/>
+          <include name="Test03_Verify_Signin"/>
+          <include name="Test10_Select_Specific_Interest"/>
+          <include name="Test09_Select_Target_Language_Speakers"/>
+          <include name="Test07_Click_Save_And_Continue"/>
           <include name="Test18_Create_Campaign_And_Verify"/>
+          <include name="Test08_Select_Age_Group"/>
+          <include name="Test12_Click_Save_And_Continue2"/>
+          <include name="Test15_Upload_Banners"/>
+          <include name="beforeClass"/>
+          <include name="Test04_Click_Create_Campaign"/>
+          <include name="Test11_Upload_1000_Contacts_txt_or_csv"/>
           <include name="afterClass"/>
         </methods>
-      </class> <!-- mikaels.frank.AdwordsCampaignCreation -->
+      </class> <!-- mikaels.frank.FbCampaignCreation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

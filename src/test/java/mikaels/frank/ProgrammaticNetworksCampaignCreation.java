@@ -29,96 +29,96 @@ public class ProgrammaticNetworksCampaignCreation {
 	  
 	  @Test
 	  public void Test01_Verify_Frank_Title() {
-		  dsl.adwordscampaigncreation.CheckFrankTitle();
+		  dsl.programmaticnetworkscampaigncreation.CheckFrankTitle();
 	  }
 	  
 	  @Test
 	  public void Test02_Perform_Signin() {
-		  dsl.adwordscampaigncreation.EnterEmailAddress();
-		  dsl.adwordscampaigncreation.EnterPassword();
-		  dsl.adwordscampaigncreation.ClickSignin();
+		  dsl.programmaticnetworkscampaigncreation.EnterEmailAddress();
+		  dsl.programmaticnetworkscampaigncreation.EnterPassword();
+		  dsl.programmaticnetworkscampaigncreation.ClickSignin();
 	  }
 	  
 	  @Test
 	  public void Test03_Verify_Signin() {
-		  dsl.adwordscampaigncreation.VerifyLogin();
+		  dsl.programmaticnetworkscampaigncreation.VerifyLogin();
 	  }
 	  
 	  @Test
 	  public void Test04_Click_Create_Campaign() {
-		  dsl.adwordscampaigncreation.ClickCreateCampaign();
+		  dsl.programmaticnetworkscampaigncreation.ClickCreateCampaign();
 	  }
 	  
 	  @Test
 	  public void Test05_Campaign_Setup_Step() {
-		  dsl.adwordscampaigncreation.EnterCampaignName();
-		  dsl.adwordscampaigncreation.SelectChannels();
-		  dsl.adwordscampaigncreation.LinkGoogleAnalyticsAccount();
+		  dsl.programmaticnetworkscampaigncreation.EnterCampaignName();
+		  dsl.programmaticnetworkscampaigncreation.SelectChannels();
+		  dsl.programmaticnetworkscampaigncreation.LinkGoogleAnalyticsAccount();
 	  }
 	  
 	  @Test
 	  public void Test06_Select_Location() {
-		  dsl.adwordscampaigncreation.SelectLocation();
+		  dsl.programmaticnetworkscampaigncreation.SelectLocation();
 	  }
 	  
 	  @Test
 	  public void Test07_Click_Save_And_Continue() {
-		  dsl.adwordscampaigncreation.ClickSaveAndContinue();
+		  dsl.programmaticnetworkscampaigncreation.ClickSaveAndContinue();
 	  }
 	  
 	  @Test
 	  public void Test08_Select_Age_Group() {
-		  dsl.adwordscampaigncreation.ClickAgeGroup();
+		  dsl.programmaticnetworkscampaigncreation.ClickAgeGroup();
 	  }
 	  
 	  @Test
 	  public void Test09_Select_Target_Language_Speakers() {
-		  dsl.adwordscampaigncreation.ClickLanguage();
+		  dsl.programmaticnetworkscampaigncreation.ClickLanguage();
 	  }
 	 
 	  @Test
 	  public void Test10_Select_Specific_Interest() {
-		  dsl.adwordscampaigncreation.ClickInterest();
+		  dsl.programmaticnetworkscampaigncreation.ClickInterest();
 	  }
 	  
 	  @Test
 	  public void Test11_Upload_1000_Contacts_txt_or_csv() throws IOException {
-		  dsl.adwordscampaigncreation.SelectEmailList();
+		  dsl.programmaticnetworkscampaigncreation.SelectEmailList();
 	  }
 	  
 	  @Test
 	  public void Test12_Click_Save_And_Continue2() {
-		  dsl.adwordscampaigncreation.ClickSaveAndContinue2();
+		  dsl.programmaticnetworkscampaigncreation.ClickSaveAndContinue2();
 	  }
 	  
 	  @Test
 	  public void Test13_Click_Create_Adwords_Ad() {
-		  dsl.adwordscampaigncreation.ClickUploadAdwordsAd();
+		  dsl.programmaticnetworkscampaigncreation.ClickUploadAdwordsAd();
 	  }
 	  
 	  @Test
 	  public void Test14_Fill_Fb_Ad_Form() {
-		  dsl.adwordscampaigncreation.EnterWebsiteLink();
+		  dsl.programmaticnetworkscampaigncreation.EnterWebsiteLink();
 	  }
 	  
 	  @Test
 	  public void Test15_Upload_Banners() throws IOException {
-		  dsl.adwordscampaigncreation.UploadBanners();
+		  dsl.programmaticnetworkscampaigncreation.UploadBanners();
 	  }
 	  
 	  @Test
 	  public void Test16_Click_Continue_To_Billing() {
-		  dsl.adwordscampaigncreation.ClickContinueToBilling();
+		  dsl.programmaticnetworkscampaigncreation.ClickContinueToBilling();
 	  }
 	  
 	  @Test
 	  public void Test17_Select_End_Date() {
-		  dsl.adwordscampaigncreation.SelectEndDate();
+		  dsl.programmaticnetworkscampaigncreation.SelectEndDate();
 	  }
 	  
 	  @Test
 	  public void Test18_Create_Campaign_And_Verify() {
-		  dsl.adwordscampaigncreation.VerifyCampaignCreatedSuccessMessage();
+		  dsl.programmaticnetworkscampaigncreation.VerifyCampaignCreatedSuccessMessage();
 	  }
 	  
 	  @AfterClass
